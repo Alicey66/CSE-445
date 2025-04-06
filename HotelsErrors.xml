@@ -1,30 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<HotelList>
+	<Hotel Rating="4.4">
+		<Name>Cambria Hotel Downtown Phoenix</Name>
+		<Phone>602-675-3500</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>222</Number>
+			<Street>E Portland St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
 
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <!-- Missing closing tag for Address -->
-  </Hotel>
+	<Hotel Rating="4.0">
+		<Name>Graduate Tempe</Name>
+		<!-- Missing <Phone> element -->
+		<Address NearstAirport="Sky Harbor">
+			<Number>225</Number>
+			<Street>E Apache Blvd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
 
-  <Hotel>
-    <Name>Hilton</Name>
-    <Name>Hilton Duplicate</Name> <!-- duplicate name error -->
-    <!-- Missing Phone element -->
-    <Address>
-      <Number>250</Number>
-      <Street>Mill Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
+	<Hotel Rating="4.1">
+		<Name>ALOFT Phoenix Airport</Name>
+		<Phone>602-275-6300</Phone>
+		<!-- Missing closing tag for Address -->
+		<Address NearstAirport="Sky Harbor">
+			<Number>4450</Number>
+			<Street>E Washington St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Hotel>
 
-</Hotel>
+	<Hotel Rating="4.3">
+		<Name>FOUND:RE Phoenix</Name>
+		<Name>FOUND:RE Phoenix Duplicate</Name>
+		<!-- Duplicate tag -->
+		<Phone>602-875-8000</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>1100</Number>
+			<Street>N Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.2">
+		<Name>AC Hotel by Marriott Phoenix Tempe</Name>
+		<Phone>480-642-6140</Phone>
+		<Stars>5</Stars>
+		<!-- Invalid extra tag -->
+		<Address NearstAirport="Sky Harbor">
+			<Number>100</Number>
+			<Street>E Rio Salado Pkwy</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+</HotelList>

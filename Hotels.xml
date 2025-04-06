@@ -1,69 +1,124 @@
-<?xml version='1.0'?>
-<!-- This file represents and instances of 5 hotels -->
-<hotels>
-	<hotel stars="****">
-		<name>The Mirage</name>
-		<contact>
-			<phone>7027917111</phone>
-			<email>contact@themirage.com</email>
-		</contact>
-		<address>
-			<number>3400</number>
-			<street>S Las Vegas Blvd</street>
-			<city>Las Vegas</city>
-			<zip>89109</zip>
-		</address>
-	</hotel>
-	<hotel stars="*****">
-		<name>The Venetian</name>
-		<contact>
-			<phone>7024141000</phone>
-			<email>venetian@thevenetian.com</email>
-		</contact>
-		<address>
-			<number>3355</number>
-			<street>S Las Vegas Blvd</street>
-			<city>Las Vegas</city>
-			<zip>89109</zip>
-		</address>
-	</hotel>
-	<hotel stars="*****">
-		<name>Wynn Las Vegas</name>
-		<contact>
-			<phone>7027707000</phone>
-			<email>wynn@wynnlasvegas.com</email>
-		</contact>
-		<address>
-			<number>3131</number>
-			<street>S Las Vegas Blvd</street>
-			<city>Las Vegas</city>
-			<zip>89109</zip>
-		</address>
-	</hotel>
-	<hotel stars="*****">
-		<name>The Palazzo</name>
-		<contact>
-			<phone>7026077777</phone>
-			<email>contact@thepalazzo.com</email>
-		</contact>
-		<address>
-			<number>3325</number>
-			<street>S Las Vegas Blvd</street>
-			<city>Las Vegas</city>
-			<zip>89109</zip>
-		</address>
-	</hotel>
-	<hotel stars="***">
-		<name>Circus Circus</name>
-		<contact>
-			<phone>8006343450</phone>
-			<email>circus@circuscircus.com</email>
-		</contact>
-		<address>
-			<number>2880</number>
-			<street>S Las Vegas Blvd</street>
-			<city>Las Vegas</city>
-			<zip>89109</zip>
-		</address>
-	</hotel>
-</hotels>
+<?xml version='1.0' encoding='UTF-8'?>
+<Hotels>
+	<Hotel Rating="4.4">
+		<Name>Cambria Hotel Downtown Phoenix</Name>
+		<Phone>602-675-3500</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>222</Number>
+			<Street>E Portland St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.0">
+		<Name>Graduate Tempe</Name>
+		<Phone>480-967-9431</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>225</Number>
+			<Street>E Apache Blvd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.1">
+		<Name>ALOFT Phoenix Airport</Name>
+		<Phone>602-275-6300</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>4450</Number>
+			<Street>E Washington St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.3">
+		<Name>FOUND:RE Phoenix</Name>
+		<Phone>602-875-8000</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>1100</Number>
+			<Street>N Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.2">
+		<Name>AC Hotel by Marriott Phoenix Tempe</Name>
+		<Phone>480-642-6140</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>100</Number>
+			<Street>E Rio Salado Pkwy</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.7">
+		<Name>Hotel San Carlos</Name>
+		<Phone>602-253-4121</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>202</Number>
+			<Street>N Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.6">
+		<Name>RISE Uptown Hotel</Name>
+		<Phone>602-595-0200</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>400</Number>
+			<Street>W Camelback Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85013</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.5">
+		<Name>Hyatt House Tempe</Name>
+		<Phone>480-207-1577</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>601</Number>
+			<Street>E 6th Street</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.5">
+		<Name>Drury Inn & Suites Phoenix Airport</Name>
+		<Phone>602-437-8400</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>3333</Number>
+			<Street>E University Dr</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.0">
+		<Name>Moxy Phoenix Tempe</Name>
+		<Phone>480-968-3451</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>1333</Number>
+			<Street>S Rural Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.1">
+		<Name>Courtyard by Marriott Phoenix Airport</Name>
+		<Phone>602-273-9090</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>2621</Number>
+			<Street>S 47th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
