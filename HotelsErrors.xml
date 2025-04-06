@@ -34,7 +34,9 @@
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85034</Zip>
-		</Hotel>
+		</Address>
+	</Hotel>
+
 
 	<Hotel Rating="4.3">
 		<Name>FOUND:RE Phoenix</Name>

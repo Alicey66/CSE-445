@@ -89,7 +89,7 @@
 		</Address>
 	</Hotel>
 	<Hotel Rating="4.5">
-		<Name>Drury Inn & Suites Phoenix Airport</Name>
+		<Name>Drury Inn &amp; Suites Phoenix Airport</Name>
 		<Phone>602-437-8400</Phone>
 		<Address NearstAirport="Sky Harbor">
 			<Number>3333</Number>
